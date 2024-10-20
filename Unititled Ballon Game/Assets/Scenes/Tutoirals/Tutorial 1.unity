@@ -863,7 +863,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: press spacebar to continue
+  m_text: press "Spacebar" to continue.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d205cb33fd0e2c940ad61d8c353f7d6c, type: 2}
   m_sharedMaterial: {fileID: 1509160047561128392, guid: d205cb33fd0e2c940ad61d8c353f7d6c, type: 2}
@@ -997,7 +997,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sometimes taking a stop on the way up helps
+  m_text: Sometimes taking a stop on the way up helps.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d205cb33fd0e2c940ad61d8c353f7d6c, type: 2}
   m_sharedMaterial: {fileID: 1509160047561128392, guid: d205cb33fd0e2c940ad61d8c353f7d6c, type: 2}
@@ -1645,7 +1645,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 522, y: 206}
+  m_AnchoredPosition: {x: 547, y: 187}
   m_SizeDelta: {x: 582.9646, y: 561.9886}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1765538104
