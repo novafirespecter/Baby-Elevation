@@ -6,7 +6,7 @@ public class MoreBallons : MonoBehaviour
 {
     public int moreBallons; //how many ballons the player gets
     public PlayerMovement playerMovement; //the playermovement script
-    public AudioSource balloonCollect.
+    public AudioSource balloonCollect;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
