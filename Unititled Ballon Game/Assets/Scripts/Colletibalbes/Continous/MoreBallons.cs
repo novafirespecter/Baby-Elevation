@@ -6,6 +6,7 @@ public class MoreBallons : MonoBehaviour
 {
     public int moreBallons; //how many ballons the player gets
     public PlayerMovement playerMovement; //the playermovement script
+    public AudioSource balloonCollect.
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -20,7 +21,9 @@ public class MoreBallons : MonoBehaviour
                 if (move != null) //if health is not null
                 {
                     move.getBallons(moreBallons); //this gives the player ballons
+                    balloonCollect.Play();
                     Destroy(gameObject); //this destroys the ballon
+
                 }
 
             }

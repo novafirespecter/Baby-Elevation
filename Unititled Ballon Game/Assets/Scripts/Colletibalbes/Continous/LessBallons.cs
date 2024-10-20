@@ -6,6 +6,7 @@ public class LessBallons : MonoBehaviour
 {
     public int moreBallons; //how many ballons the player losses
     public PlayerMovement playerMovement; //the playermovement script
+    public AudioSource balloonPopping;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -20,6 +21,7 @@ public class LessBallons : MonoBehaviour
                 if (move != null) //if health is not null
                 {
                     move.loseBallons(moreBallons); //this reduces the amount of ballons the player has
+                    balloonPopping.Play();
                 }
 
             }
